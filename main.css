@@ -1,0 +1,41 @@
+.container {
+  margin: 0 auto;
+  width: 768px;
+}
+
+header {
+  background-color: black;
+}
+
+#logo {
+  display: block;
+  margin: 0 auto;
+}
+
+small.page_no {
+  float: right;
+  color: #ddd;
+}
+ul{
+  padding-left: 0;
+  text-align: center;
+  width: 260px;
+  border-radius: 10px;
+  border: solid 1px #808080;
+}
+
+li{
+  display: inline-block;
+  list-style-type: none;
+  padding: 4px;
+}
+li:nth-last-child(1n+2){
+  border-right: solid black 1px;
+}
+li a{
+  text-decoration: none;
+  color: black;
+}
+.active{
+  background-color: grey;
+}
